@@ -1,4 +1,4 @@
-require 'BCrypt'
+require 'bcrypt'
 
 class Users < ApplicationRecord
 
