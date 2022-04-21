@@ -1,0 +1,103 @@
+/*
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.top-banner {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+#logout-button {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+#form-logout {
+   margin: 0px;
+   margin-bottom: 20px;
+}
+
+#username {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 60px;
+}
+
+#name {
+   margin: 10px;
+}
+
+/* log in page */
+
+#login-intro {
+   margin-left: 100px;
+}
+
+#login-button {
+   margin: 15px;
+   margin-left: 90px;
+   width: 170px;
+}
+
+#login-input {
+   font-family: 'Courier New', Courier, monospace;
+   margin: 3px;
+}
+
+#login-container {
+   margin: 25px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+/* home page */
+
+#logout-button {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 50px;
+   margin-right: 15px;
+}
+
+#lauter {
+   width: 100%;
+   height: 550px;
+   object-fit: cover;
+   object-position: 50% 50%;
+}
+
+/* errors */
+
+.error {
+   color: red;
+   font-weight: bold;
+}
+
+/* Option Container / Login SignUp Choose */
+
+.option-container {
+   margin: 20px;
+   /* background-color: red; */
+   width: 400px;
+   display: flex;
+   justify-content: center;
+}
+
+.option-container a {
+   color: #8b1212;
+   text-decoration: none;
+   font-size: 40px;
+}
+
+#location {
+   display: flex;
+   justify-content: right;
+}
