@@ -21,9 +21,9 @@ class ApplicationController < ActionController::Base
     def set_session_flag!
         session[:has_loaded_data] = false
     end
-# s = File.read("#{Rails.root}/app/assets/some_text_file.txt")
+    
     def load_data_to_db
-        data = CSV.parse(File.read("/logindata.csv"), headers: true)
+        data = CSV.parse(File.read("#{Rails.root}/app/assets/logindata.csv"), headers: true)
         for row in data
             row = row.to_hash
             user = Users.new
