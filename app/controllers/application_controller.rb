@@ -1,3 +1,5 @@
+require 'csv'
+
 class ApplicationController < ActionController::Base
     # CELLL
     
