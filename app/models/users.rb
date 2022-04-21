@@ -1,3 +1,5 @@
+require 'BCrypt'
+
 class Users < ApplicationRecord
 
     validates :name, presence: true
