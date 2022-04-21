@@ -23,7 +23,7 @@ class ApplicationController < ActionController::Base
     end
 
     def load_data_to_db
-        data = CSV.parse(File.read("storage/logindata.csv"), headers: true)
+        data = CSV.parse(File.read(Rails.root.join("storage/logindata.csv")), headers: true)
         for row in data
             row = row.to_hash
             user = Users.new
